@@ -7,18 +7,24 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     /* sets the flexible length on flexible items */
+    margin-bottom: 120px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+    text-align: justify;
 }
 
 .half-width img {
@@ -37,4 +43,45 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.top-banner img {
+    padding-top: 20px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big p {
+    padding-right: 150px;
+}
+
+.experience-item {
+    width: 40%;
+    margin: 0 5%;
+    padding: 0 30px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+footer p {
+    text-align: center;
 }
